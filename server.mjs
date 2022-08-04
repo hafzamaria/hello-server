@@ -21,6 +21,7 @@ app.get('/profile', (req, res) => {
         city:"karachi",
     })
   })
+  const PORT = process.env.PORT || 4000;
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
